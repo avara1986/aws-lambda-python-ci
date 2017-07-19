@@ -1,0 +1,5 @@
+[run]
+include=*myexamplelambdaproject/*
+omit =
+    *examples/*
+    .tox/*

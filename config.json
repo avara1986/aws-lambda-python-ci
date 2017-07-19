@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "aws_credentials":{
+    "region": "eu-west-1"
+  },
+  "deploy": {
+    "deploy_method": "FILE"
+  },
+  "Role": "arn:aws:iam::016081714405:role/service-role/LambdaTest",
+  "Runtime": "python3.6",
+  "lambdas": [
+    {
+      "FunctionName": "LambdaExample1",
+      "Handler": "myexamplelambdaproject.lambda1.main.my_handler"
+    },
+    {
+      "FunctionName": "LambdaExample2",
+      "Handler": "myexamplelambdaproject.lambda2.main.my_handler"
+    }
+  ]
+}
