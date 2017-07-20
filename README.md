@@ -7,5 +7,5 @@
 
 Ejample project to run in Jenkins.
 
-The source code is [https://github.com/paradigmadigital/aws-lambda-python-ci](https://coveralls.io/github/avara1986/aws-lambda-python-ci?branch=master)
+The source code is [here](https://github.com/paradigmadigital/lambda-ci-python?branch=master)
 
